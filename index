@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wendyam Ariel TIEMTORE | Data Scientist & IA</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <div id="particles-js">
+        <nav id="nav" data-aos="fade-in">
+          <div class="container nav-container">
+            <ul class="hide-for-mobile nav-links flex">
+              <li><a href="#projects" class="link"><i class="fas fa-code"></i> Projets</a></li>
+              <li><a href="#experience" class="link"><i class="fas fa-briefcase"></i> Expérience</a></li>
+              <li><a href="#skills" class="link"><i class="fas fa-tools"></i> Compétences</a></li>
+              <li><a href="#education" class="link"><i class="fas fa-user-graduate"></i> Formation</a></li>
+              <li><a href="cv/CV_Wendyam_Ariel_TIEMTORE.pdf" class="link" target="_blank"><i class="fas fa-file"></i> CV</a></li>
+              <li><a href="#contact" class="link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="avatarlogo" data-aos="fade-in">
+          <img src="img/avatar.jpg" alt="Wendyam Ariel" class="avatar"> 
+        </div>
+
+        <!-- HERO -->
+        <div class="hero">
+          <div data-aos="fade-up">
+            <h1 class="h1">
+              Bonjour, je suis <span class="main-font text-blue">Wendyam Ariel</span>
+            </h1>
+            <p class="student" id="student">
+              Data Scientist & Analyst en M2 MIASHS à <a href="https://www.univ-lyon2.fr/" class="blue-link-underline" target="_blank">@Université Lyon 2</a>
+              <br>IA de Confiance | Machine Learning | Privacy-Preserving AI | Statistiques Avancées
+              <br><span class="main-font text-blue">🎯 Recherche stage de fin d'études (Mars 2026, 4-6 mois)</span>
+            </p>
+            <div class="hero-btns">
+              <a href="#projects" class="btn-blue"><i class="fas fa-code"></i> Mes Projets</a>
+              <a href="https://github.com/YOUR_GITHUB" class="btn-blue-outline mx-1" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SOCIALS -->
+        <div class="socials" data-aos="fade-in"> 
+          <ul>
+            <li class="bg-blue"><a href="https://linkedin.com/in/wendyam-ariel-tiemtore" target="_blank"><span class="socials-text">LinkedIn</span> <i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li class="bg-dark-grey"><a href="https://github.com/YOUR_GITHUB" target="_blank"><span class="socials-text">GitHub</span><i class="fab fa-github fa-2x"></i></a></li>
+            <li class="bg-white"><a class="text-dark-grey" href="mailto:wendyam-ariel.tiemtore@univ-lyon2.fr"><span class="socials-text">Email</span><i class="fas fa-envelope fa-2x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="seperator-skew">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </header>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="main-font">Projets Data Science &<span class="text-blue main-font"> IA</span></h2>
+
+        <!-- Projet 1 -->
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left">
+            <img src="img/federated-learning.png" alt="Federated Learning">
+          </div>
+          <div class="project-right">
+            <h3>🔐 Apprentissage Fédéré Sécurisé (Privacy-Preserving AI)</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Technologies: </b></p>
+              <li><span class="iconify" data-icon="logos:python"></span></li>
+              <li><span class="iconify" data-icon="logos:pytorch"></span></li>
+              <li><span class="iconify" data-icon="simple-icons:scikitlearn"></span></li>
+            </ul>
+            <p>Système d'IA décentralisé pour le diagnostic du cancer du sein simulant la collaboration entre hôpitaux sans échange de données.</p>
+            <ul class="project-highlights">
+              <li>✓ <strong>SCAFFOLD:</strong> Correction du Client Drift (92% → 94% accuracy)</li>
+              <li>✓ <strong>Differential Privacy:</strong> Protection des données médicales via bruit gaussien</li>
+              <li>✓ <strong>Fairness:</strong> Analyse et mitigation des biais algorithmiques</li>
+              <li>✓ <strong>VFL:</strong> Split Learning hôpital-assureur par embeddings</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/YOUR_REPO" class="btn-blue-outline btn-small" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projet 2 -->
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left">
+            <img src="img/nlp-llm.png" alt="NLP">
+          </div>
+          <div class="project-right">
+            <h3>🤖 Benchmarking NLP: CamemBERT vs LLM</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Technologies: </b></p>
+              <li><span class="iconify" data-icon="logos:python"></span></li>
+              <li><span class="iconify" data-icon="simple-icons:huggingface"></span></li>
+            </ul>
+            <p>Comparaison systématique des performances entre modèles de langage classiques et LLM modernes.</p>
+            <ul class="project-highlights">
+              <li>✓ <strong>Baseline:</strong> TF-IDF + SVM</li>
+              <li>✓ <strong>Fine-tuning:</strong> CamemBERT 2.0 optimisé</li>
+              <li>✓ <strong>LLM:</strong> Llama 3 (0-shot, Chain-of-Thought)</li>
+              <li>✓ <strong>Analyse:</strong> Trade-off performance/coût</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/YOUR_REPO" class="btn-blue-outline btn-small" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projet 3 -->
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left">
+            <img src="img/survival.png" alt="Survival">
+          </div>
+          <div class="project-right">
+            <h3>📊 Prédiction Conforme en Analyse de Survie</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Technologies: </b></p>
+              <li><span class="iconify" data-icon="logos:python"></span></li>
+              <li><span class="iconify" data-icon="simple-icons:numpy"></span></li>
+            </ul>
+            <p>Quantification mathématique de l'incertitude pour modèles de survie en oncologie (SigBERT).</p>
+            <ul class="project-highlights">
+              <li>✓ <strong>Objectif:</strong> Intervalles à 90% garantis</li>
+              <li>✓ <strong>Méthodologie:</strong> Split Conformal + IPCW</li>
+              <li>✓ <strong>Modèles:</strong> CoxPH, Random Survival Forest</li>
+              <li>✓ <strong>Métriques:</strong> C-Index, calibration</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/YOUR_REPO" class="btn-blue-outline btn-small" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projet 4 -->
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left">
+            <img src="img/trading.png" alt="Trading">
+          </div>
+          <div class="project-right">
+            <h3>💹 Trading Algorithmique (LSTM + Conformal)</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Technologies: </b></p>
+              <li><span class="iconify" data-icon="logos:tensorflow"></span></li>
+              <li><span class="iconify" data-icon="simple-icons:pandas"></span></li>
+            </ul>
+            <p>Robot de trading avec gestion avancée du risque via prédiction conforme.</p>
+            <ul class="project-highlights">
+              <li>✓ <strong>LSTM:</strong> Prédiction de tendances</li>
+              <li>✓ <strong>Risque:</strong> Bornes de volatilité dynamiques</li>
+              <li>✓ <strong>Backtesting:</strong> ROI, Sharpe Ratio</li>
+              <li>✓ <strong>Features:</strong> 80+ indicateurs techniques</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/YOUR_REPO" class="btn-blue-outline btn-small" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projet 5 -->
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left">
+            <img src="img/drone.png" alt="Drone">
+          </div>
+          <div class="project-right">
+            <h3>🚁 Contrôle de Drone (Reinforcement Learning)</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Technologies: </b></p>
+              <li><span class="iconify" data-icon="logos:python"></span></li>
+              <li><span class="iconify" data-icon="simple-icons:numpy"></span></li>
+            </ul>
+            <p>Contrôleur intelligent adaptatif pour stabilisation de drone avec perturbations.</p>
+            <ul class="project-highlights">
+              <li>✓ <strong>Algorithme:</strong> Online Gradient Descent</li>
+              <li>✓ <strong>Simulation:</strong> Modélisation physique</li>
+              <li>✓ <strong>Benchmark:</strong> vs LQR classique</li>
+              <li>✓ <strong>Résultat:</strong> Compensation temps réel</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/YOUR_REPO" class="btn-blue-outline btn-small" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="experience">
+      <div class="seperator-skew-top">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      
+      <div class="container" data-aos="fade-in">
+        <h2 class="text-white main-font">Mon <span class="text-blue main-font">Expérience</span></h2>
+
+        <div class="experience-card" data-aos="zoom-in">
+          <div class="experience-card-column">
+            <div class="card-column-large">
+              <h4 class="experience-year main-font text-blue">France Travail</h4>
+              <h4>Stagiaire Data Analyst - Lyon</h4>
+              <ul>
+                <li>📊 <strong>Power BI:</strong> Automatisation de dashboards (DAX)</li>
+                <li>🔍 <strong>Segmentation:</strong> 297K établissements (ACP/K-means)</li>
+                <li>🗺️ <strong>Cartographie:</strong> QGIS multi-indicateurs</li>
+              </ul>
+              <hr>
+            </div>
+          </div>
+
+          <div class="experience-card-column">
+            <div class="card-column-large">
+              <h4 class="experience-year main-font text-blue">ISSP Burkina Faso</h4>
+              <h4>Contrôleur de Collecte</h4>
+              <ul>
+                <li>👥 <strong>Management:</strong> 20 enquêteurs (4 régions)</li>
+                <li>✅ <strong>Qualité:</strong> 10K questionnaires</li>
+                <li>🎯 <strong>Résultat:</strong> 98% de couverture</li>
+              </ul>
+              <hr>
+            </div>
+          </div>
+
+          <div class="experience-card-column">
+            <div class="card-column-large">
+              <h4 class="experience-year main-font text-blue">Centre Recherche Clinique</h4>
+              <h4>Statisticien (Data Management)</h4>
+              <ul>
+                <li>🐍 <strong>Python:</strong> 15K dossiers nettoyés</li>
+                <li>📈 <strong>Analyse:</strong> Rapports Ministère Santé</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="seperator-skew-bottom">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+      <div class="seperator-skew-top">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container" data-aos="fade-in"> 
+        <h2 class="text-white main-font">Mes <span class="text-blue main-font">Compétences</span></h2>
+        
+        <h3 class="text-white main-font">Data Science & IA</h3>
+        <hr>
+        <ul class="skills-icons">
+          <li><span class="iconify" data-icon="logos:python" data-width="90px" data-height="90px"></span><span>Python</span></li>
+          <li><span class="iconify" data-icon="simple-icons:scikitlearn" data-width="90px" data-height="90px"></span><span>Scikit-learn</span></li>
+          <li><span class="iconify" data-icon="logos:tensorflow" data-width="90px" data-height="90px"></span><span>TensorFlow</span></li>
+          <li><span class="iconify" data-icon="logos:pytorch" data-width="90px" data-height="90px"></span><span>PyTorch</span></li>
+          <li><span class="iconify" data-icon="simple-icons:huggingface" data-width="90px" data-height="90px"></span><span>HuggingFace</span></li>
+          <li><span class="iconify" data-icon="simple-icons:numpy" data-width="90px" data-height="90px"></span><span>NumPy</span></li>
+          <li><span class="iconify" data-icon="simple-icons:pandas" data-width="90px" data-height="90px"></span><span>Pandas</span></li>
+        </ul>
+
+        <h3 class="text-white main-font">Data Viz & Analytics</h3>
+        <hr>
+        <ul class="skills-icons">
+          <li><span class="iconify" data-icon="simple-icons:powerbi" data-width="90px" data-height="90px"></span><span>Power BI</span></li>
+          <li><span class="iconify" data-icon="logos:tableau" data-width="90px" data-height="90px"></span><span>Tableau</span></li>
+          <li><span class="iconify" data-icon="simple-icons:plotly" data-width="90px" data-height="90px"></span><span>Plotly</span></li>
+          <li><span class="iconify" data-icon="simple-icons:qgis" data-width="90px" data-height="90px"></span><span>QGIS</span></li>
+        </ul>
+
+        <h3 class="text-white main-font">Autres Outils</h3>
+        <hr>
+        <ul class="skills-icons">
+          <li><span class="iconify" data-icon="logos:r-lang" data-width="90px" data-height="90px"></span><span>R</span></li>
+          <li><span class="iconify" data-icon="logos:mysql" data-width="90px" data-height="90px"></span><span>SQL</span></li>
+          <li><span class="iconify" data-icon="simple-icons:sas" data-width="90px" data-height="90px"></span><span>SAS</span></li>
+          <li><span class="iconify" data-icon="logos:git" data-width="90px" data-height="90px"></span><span>Git</span></li>
+        </ul>
+
+        <h3 class="text-white main-font">Certifications</h3>
+        <hr>
+        <ul class="certifications-list">
+          <li>🏆 Dataiku Core Designer (2024)</li>
+          <li>🏆 IA pour tous (2023)</li>
+        </ul>
+      </div>
+
+      <div class="seperator-skew-bottom">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="education">
+      <div class="container">
+        <h2 class="main-font" data-aos="fade-in">Ma <span class="text-blue main-font">Formation</span></h2>
+
+        <div class="education-card" data-aos="zoom-in">
+          <div class="education-card-column">
+            <div class="card-column-large">
+              <h4 class="education-year main-font">2024 - 2026</h4>
+              <h4>M2 MIASHS - Data Science, IA & Statistique</h4>
+              <p><span class="iconify" data-icon="emojione:flag-for-france"></span> <i>Université Lyon 2, France</i></p>
+              <ul>
+                <li>Machine Learning, Deep Learning, NLP</li>
+                <li>Python avancé, Gestion de projet</li>
+              </ul>
+              <hr>
+            </div>
+          </div>
+
+          <div class="education-card-column">
+            <div class="card-column-large">
+              <h4 class="education-year main-font">2018 - 2024</h4>
+              <h4>Master Démographie & Licence Statistique</h4>
+              <p><span class="iconify" data-icon="emojione:flag-for-burkina-faso"></span> <i>Univ. Joseph Ki-Zerbo</i></p>
+              <ul>
+                <li>Analyse de données d'enquêtes</li>
+                <li>Échantillonnage complexe</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title main-font" data-aos="fade-in">Me <span class="text-blue main-font">Contacter</span></h2>
+        <div class="card-container">
+          <div class="card" data-aos="fade-in">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>wendyam-ariel.tiemtore@univ-lyon2.fr</p>
+            <p>wendyamtiemtore@gmail.com</p>
+          </div>
+          <div class="card" data-aos="fade-in" data-aos-delay="100">
+            <i class="fab fa-github"></i>
+            <h3>GitHub</h3>
+            <a href="https://github.com/YOUR_GITHUB" class="text-blue" target="_blank">YOUR_GITHUB</a>
+          </div>
+          <div class="card" data-aos="fade-in" data-aos-delay="200">
+            <i class="fab fa-linkedin"></i>
+            <h3>LinkedIn</h3>
+            <a href="https://linkedin.com/in/wendyam-ariel-tiemtore" class="text-blue" target="_blank">wendyam-ariel-tiemtore</a>
+          </div>
+          <div class="card" data-aos="fade-in" data-aos-delay="300">
+            <i class="fas fa-phone"></i>
+            <h3>Téléphone</h3>
+            <p>07 45 74 73 31</p>
+          </div>
+        </div>
+        
+        <form id="contact-form" data-aos="zoom-in" data-aos-delay="400" action="https://formspree.io/f/YOUR_ID" method="POST">
+          <h2 class="main-font">Envoyer un <span class="text-blue main-font">Message</span></h2>
+
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Nom" required>
+          </div>
+
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+          </div>
+
+          <div class="form-group">
+            <textarea name="message" id="message" rows="7" placeholder="Message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn-email">
+            <span class="default">Envoyer</span>
+            <span class="success">
+                <svg viewBox="0 0 16 16">
+                    <polyline points="3.75 9 7 12 13 5"></polyline>
+                </svg>Envoyé
+            </span>
+            <svg class="trails" viewBox="0 0 33 64">
+                <path d="M26,4 C28,13.3333333 29,22.6666667 29,32 C29,41.3333333 28,50.6666667 26,60"></path>
+                <path d="M6,4 C8,13.3333333 9,22.6666667 9,32 C9,41.3333333 8,50.6666667 6,60"></path>
+            </svg>
+            <div class="plane">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-flex">
+          <div>
+            <p class="student main-font text-blue">Data Scientist & Analyst - M2 MIASHS</p>
+            <p class="student main-font">
+              🎯 Stage de fin d'études (Mars 2026, 4-6 mois)<br>
+              📊 Data Science | ML | IA de Confiance | Privacy
+            </p>
+            <p class="student main-font" style="text-align: center; margin-top: 10px;">
+              💡 Une opportunité ou un conseil ? Contactez-moi !
+            </p>
+          </div>
+
+          <div class="footer-icon-links">
+            <a href="https://github.com/YOUR_GITHUB" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://linkedin.com/in/wendyam-ariel-tiemtore" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="mailto:wendyam-ariel.tiemtore@univ-lyon2.fr"><i class="fas fa-envelope fa-2x"></i></a>
+          </div>
+        </div>
+        <div class="text-center p-3">
+          © 2026 - Wendyam Ariel TIEMTORE
+        </div>
+      </div>
+    </footer>
+
+    <a id="backToTopBtn" class="btn-blue">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load('particles-js', './particles.json', function(){
+        console.log("particles.json loaded...")
+      })
+    </script>
+    <script defer src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  </body>
+</html>
